@@ -6,34 +6,34 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Modal from "react-modal";
 
-Modal.setAppElement(`#___gatsby`);
+// Modal.setAppElement(`#___gatsby`);
 
-const modalStyles = {
-  overlay: {
-    backgroundColor: "rgba(0, 0, 0, 0.90)",
-    zIndex: '100' 
-  },
-  content: {
-    position: "relative",
-    top: "50px",
-    left: "auto",
-    right: "auto",
-    bottom: "auto",
-    width: "90%",
-    maxWidth: "960px",
-    margin: "32px auto",
-    padding: '10px',
-    border: "20px solid #292B3B"
-  }
-};
+// const modalStyles = {
+//   overlay: {
+//     backgroundColor: "rgba(0, 0, 0, 0.90)",
+//     zIndex: '100'
+//   },
+//   content: {
+//     position: "relative",
+//     top: "50px",
+//     left: "auto",
+//     right: "auto",
+//     bottom: "auto",
+//     width: "90%",
+//     maxWidth: "960px",
+//     margin: "32px auto",
+//     padding: '10px',
+//     border: "20px solid #292B3B",
+//   }
+// };
 
 const IndexPage = ({data}) => {
 
   // Modal stuff.
-  const [modalOpen, setModalOpen] = useState(true);
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+  // const [modalOpen, setModalOpen] = useState(true);
+  // const closeModal = () => {
+  //   setModalOpen(false);
+  // };
 
   return (
   <Layout>
@@ -43,7 +43,7 @@ const IndexPage = ({data}) => {
         <Img fluid={data.pork.childImageSharp.fluid}/>
       </div>
     </section>
-    <Modal
+    {/* <Modal
         isOpen={modalOpen}
         onRequestClose={closeModal}
         style={modalStyles}
@@ -72,7 +72,7 @@ const IndexPage = ({data}) => {
           <span>The Dantes team</span>
         </div>
       </div>
-    </Modal>
+    </Modal> */}
     <div className="intro">
       <div className="container">
         
