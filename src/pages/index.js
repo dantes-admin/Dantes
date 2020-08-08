@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 import LeafletMap from '../components/leafletmap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Modal from "react-modal";
+// import Modal from "react-modal";
 
 // Modal.setAppElement(`#___gatsby`);
 
