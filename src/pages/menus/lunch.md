@@ -3,7 +3,7 @@ templateKey: lunch-page
 menu:
   primi:
     - title: Zuppa Del Giorno
-      description: Chef’s homemade soup of the day
+      description: Our homemade soup of the day
     - title: Insalata Pera Formaggio
       description: Pear and goats cheese salad
     - title: Bruschetta
@@ -16,7 +16,7 @@ menu:
     - title: Spaghetti Carbonara
       description: Spaghetti with pancetta, egg and parmiggiano
     - title: Penne Arrabiata
-      description: Penne served with a tomato and chilli sauce
+      description: Penne pasta served with a tomato and chilli sauce
     - title: Pizza Parmigiana
       description: Extra thin pizza with chopped tomatoes, garlic and a generous
         sprinkling of parmiggiano
