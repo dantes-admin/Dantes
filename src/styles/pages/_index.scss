@@ -340,16 +340,23 @@ main {
   position: relative;
   padding-top: 15px;
   overflow-y: auto;
-  height: 400px;
+  height: 300px;
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
+
+  h4 {
+    font-size: 1rem;
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+    }
+  }
 
   p {
     font-size: 14px;
 
     @media (min-width: 768px) {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
   span {
@@ -357,7 +364,7 @@ main {
     display: block;
 
     @media (min-width: 768px) {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 }

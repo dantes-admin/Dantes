@@ -4,36 +4,36 @@ import Img from 'gatsby-image'
 import LeafletMap from '../components/leafletmap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import Modal from "react-modal";
+import Modal from "react-modal";
 
-// Modal.setAppElement(`#___gatsby`);
+Modal.setAppElement(`#___gatsby`);
 
-// const modalStyles = {
-//   overlay: {
-//     backgroundColor: "rgba(0, 0, 0, 0.90)",
-//     zIndex: '100'
-//   },
-//   content: {
-//     position: "relative",
-//     top: "50px",
-//     left: "auto",
-//     right: "auto",
-//     bottom: "auto",
-//     width: "90%",
-//     maxWidth: "960px",
-//     margin: "32px auto",
-//     padding: '10px',
-//     border: "20px solid #292B3B",
-//   }
-// };
+const modalStyles = {
+  overlay: {
+    backgroundColor: "rgba(0, 0, 0, 0.90)",
+    zIndex: '100'
+  },
+  content: {
+    position: "relative",
+    top: "70px",
+    left: "auto",
+    right: "auto",
+    bottom: "auto",
+    width: "90%",
+    maxWidth: "960px",
+    margin: "10px auto",
+    padding: '10px',
+    border: "20px solid #292B3B",
+  }
+};
 
 const IndexPage = ({data}) => {
 
-  // Modal stuff.
-  // const [modalOpen, setModalOpen] = useState(true);
-  // const closeModal = () => {
-  //   setModalOpen(false);
-  // };
+  // Modal stuff 
+  const [modalOpen, setModalOpen] = useState(true);
+  const closeModal = () => {
+    setModalOpen(false);
+  };
 
   return (
   <Layout>
@@ -43,7 +43,7 @@ const IndexPage = ({data}) => {
         <Img fluid={data.pork.childImageSharp.fluid}/>
       </div>
     </section>
-    {/* <Modal
+      <Modal
         isOpen={modalOpen}
         onRequestClose={closeModal}
         style={modalStyles}
@@ -61,18 +61,16 @@ const IndexPage = ({data}) => {
           Close
         </Link>
         <div className='modal-body'>
-          <h4>TAKEAWAY SERVICES NOW AVAILABLE - FOOD, WINE & COCKTAILS</h4>
-          <p>Until we can welcome you all back into the restaurant, please enjoy Dantes at home! Takeaways are available Tuesday - Sunday from 5pm. Please check our takeaway menu to see all available dishes with takeaway prices. Wine is also available at a 30% discount, and we're now offering takeaway cocktails, too. </p>
-
-          <p>To order, please call the restaurant on 0131 441 7427 from 2.30pm onwards, Tues-Sun. Please note, we are currently unable to take orders over email/Facebook.</p>
-
-          <p>We're so grateful for all the support we've had in this difficult time, and so glad we can continue keeping Colinton well fed. 23 years and counting! </p>
+          <h4>Dantes Serving Times</h4>
+          <p>Tuesday - Sunday || 5pm till 9pm</p>
+          <p>Currently we will be continuing with both sit-ins and takeaways</p>
+          <p>You can contact us from 2:30pm onwards Tuesday to Sunday regarding bookings and orders</p>
 
           <span>Take care, and keep safe.</span>
           <span>The Dantes team</span>
         </div>
       </div>
-    </Modal> */}
+    </Modal>
     <div className="intro">
       <div className="container">
         
