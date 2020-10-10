@@ -15,6 +15,9 @@ menu:
     - title: Focaccia Mozzarella
       description: Pizza bread topped with fresh mozzarella cheese
       price: "4.20"
+    - title: Anatra e Pistachio
+      description: Duck and pistachio terrine wrapped in prosciutto
+      price: "6.50"
   antipasti:
     - title: Prosciutto e Parmiggiano Reggiano
       description: Sliced Parma ham with aged parmesan shavings on a bed of rocket
