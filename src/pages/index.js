@@ -62,7 +62,8 @@ const IndexPage = ({data}) => {
         </Link>
         <div className='modal-body'>
           <h4>Dantes Update</h4>
-          <p>During the government closure, the restaurant is closed but we'll be offering a <Link to='/menus/takeaway' className='modal-link'>takeaway service</Link> Tuesday - Sunday from 5pm.</p>
+          <p>We are now open for sit-in dining Friday - Sunday until 6pm, with last tables arriving at 4pm.</p>
+          <p>We will still be offering a <Link to='/menus/takeaway' className='modal-link'>takeaway service</Link> Wednesday - Sunday from 5pm.</p>
           <p>To order, please call the restaurant on <a href="tel:01314417427" className='modal-link'>01314417427</a> from 2:30pm onwards</p>
           <span>Take care, and keep safe.</span>
           <span>The Dantes team</span>
